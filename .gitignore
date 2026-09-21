@@ -1,0 +1,18 @@
+# Carpetas de compilación e instalación de ROS 2
+build/
+install/
+log/
+
+# Archivos del sistema y editores
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Archivos de caché de Python
+__pycache__/
+*.pyc
+build/
+install/
+log/
