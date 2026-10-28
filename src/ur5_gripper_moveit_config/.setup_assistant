@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ur5_robotiq_description
+    relative_path: urdf/ur_with_gripper_sim.urdf.xacro
+    xacro_args: name:=ur ur_type:=ur5
+  srdf:
+    relative_path: config/ur.srdf
+  package_settings:
+    author_name: Josthin Steve Cetina Puerto
+    author_email: josthin.cetina@mail.escuelaing.edu.co
+    generated_timestamp: 1792975284

@@ -19,3 +19,22 @@ log/
 build/
 install/
 log/
+
+# ROS 2 / colcon
+/build/
+/install/
+/log/
+logs/
+*.pyc
+__pycache__/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
